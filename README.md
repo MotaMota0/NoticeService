@@ -7,7 +7,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/MotaMota0/NoticeService
+git clone https://github.com/MotaMota0/NoticeService.git
 cd NoticeService
 ```
 
@@ -69,7 +69,7 @@ Task Manager Service — это RESTful API для управления зада
 ---
 
 ## Технологии
-- **Backend:** Java 17+, Spring Boot, Spring Security, Spring Data JPA.
+- **Backend:** Java 21, Spring Boot, Spring Security, Spring Data JPA.
 - **База данных:** PostgreSQL.
 - **Аутентификация:** JWT (JSON Web Token).
 - **Документация API:** Swagger/OpenAPI.
@@ -98,16 +98,16 @@ Task Manager Service — это RESTful API для управления зада
 
 ### Предварительные требования
 1. Установленный Docker и Docker Compose.
-2. JDK 17+.
+2. JDK 21.
 3. Maven.
 
 ### Инструкции по запуску
 
-1. **Клонируйте репозиторий:**
-   ```bash
-   git clone https://github.com/your-repo/task-manager.git
-   cd task-manager
-   ```
+1.**Клонирование репозитория
+```bash
+git clone https://github.com/MotaMota0/NoticeService.git
+cd NoticeService
+```
 
 2. **Запустите контейнеры через Docker Compose:**
    ```bash
@@ -229,7 +229,7 @@ mvn test
 ### Swagger
 Swagger UI доступен по адресу:
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8081/swagger-ui.html
 ```
 
 ### Docker Compose
